@@ -9,7 +9,6 @@ export default function Home() {
       {/* SECTION-1 STARTED */}
       <section id="section-1">
         <div className="container">
-          
         </div>
       </section>
       {/* SECTION-1 ENDED */}
