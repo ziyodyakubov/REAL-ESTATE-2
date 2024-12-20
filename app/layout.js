@@ -1,15 +1,7 @@
-import "./globals.css";
+import { metadata } from './metadata';
 
-export const metadata = {
-  title: "Real Estate",
-};
+export { metadata };
 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>
-        {children}
-      </body>
-    </html>
-  );
-}
+import RootLayout from './RootLayout';
+
+export default RootLayout;
